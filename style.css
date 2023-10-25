@@ -1,25 +1,43 @@
 .container {
     margin: auto;
-    width: 500px;
+    width: 200px;
     overflow: auto;
-    padding: 3rem 2rem;
-    background-color: purple;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgb(3, 222, 250);
 }
 
 .btn {
     display: block;
-    width: 100%;
-    padding: 10px 15px;
+    width: 50%;
+    padding: 2px 2px 2px 2px;
     border: 0;
-    background: #333;
+    background: #0588f3;
     color: #fff;
     border-radius: 5px;
-    margin: 5px 0;
+    margin: 15px 30px;
 }
 
 .bg-change {
     background: pink;
     color: #fff;
+}
+
+#my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#my-form label {
+    display: block;
+}
+
+#my-form input[type="text"] {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
 }
 
 

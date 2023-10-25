@@ -3,13 +3,30 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ChangingBG</title>
+        <title>Application Form</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class = "container">
-        <input class="btn" type="submit" value="changing background color">
+    <body>
+        <form id="#my-form">
+            <section class="container">
+            <header><h1>Application Form</h1></header>
+            <div>
+                <label>Name: </label>
+                <div><input type="text" id="name"></div>
+            </div>
+            <div>
+                <label>Email: </label>
+                <div><input type="text" id="email"></div>
+            </div>
+            <div>
+                <label>Phone: </label>
+                <div><input type="text" id="phone"></div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+            </section>
+        </form>
         <script src="main.js"></script>
     </body>
 </html>
